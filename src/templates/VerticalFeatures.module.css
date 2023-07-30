@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.optionCardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Media queries para adaptar el diseño en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .optionCardContainer {
+    grid-template-columns: 1fr;
+  }
+}
