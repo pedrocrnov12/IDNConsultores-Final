@@ -4,7 +4,7 @@ import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 const WhatsAppChat: React.FC = () => {
   const handleButtonClick = () => {
-    const phone = '529993707028'; // Número de teléfono de WhatsApp
+    const phone = '529995116849'; // Número de teléfono de WhatsApp
     const message = encodeURIComponent('Hola, quiero contactar contigo'); // Mensaje predefinido
 
     const url = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
